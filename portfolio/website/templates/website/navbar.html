@@ -1,5 +1,19 @@
+{% load static %}
 <nav class="navbar">
     <div class="container">
-        
+        <div class="navbar-menu">
+            <img src="{% static 'images/CC-logo-16-16--final.svg' %}" alt="logo"/>
+            <div class="nav-links">
+                <a>Projects</a>
+                <a>Coffee</a>
+                <a>Coding</a>
+                <a>Contact</a>
+            </div>
+        </div>
+        <div class="login-menu">
+            <a href="{% url 'home' %}" class="btn" href="#"> <i class="fas fa-user"></i>login</a>
+
+
+        </div>
     </div>
 </nav>
