@@ -46,10 +46,16 @@
            </a>
             
             <div class="nav-links">
-                <a>Projects</a>
-                <a>Coffee</a>
-                <a>Coding</a>
-                <a>Contact</a>
+                <a href="/"  class="{% if request.path == '/' %}
+                  active
+                {% endif %}">Home</a>
+                <a href="{% url 'coffee' %}"  class="{% if request.path == '/coffee/' %}
+                  active
+                  {% endif %}">Coffee</a>
+                  <a href="{% url 'coding' %}"  class="{% if request.path == '/coding/' %}
+                  active
+                  {% endif %}">Coding</a>
+                  <a href="#"  >Contact</a>
             </div>
         </div>
         <div class="login-menu">

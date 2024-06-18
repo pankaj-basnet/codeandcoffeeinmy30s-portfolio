@@ -208,8 +208,19 @@
     }
 
     .mycoffee .mycontainer > p {
-        font-size: 20px !important;
+        font-size: 20px ;
 
+    }
+
+    .mycoffee .mycontainer a{
+        background: var(--clr-myblue-1800); /* #635bff*/
+        background: var(--clr-mywhite-3000);
+
+        color: var(--clr-mywhite-2000);
+        color: var(--clr-myblue-1800);
+
+        border-radius: 10px;
+        padding: 0 10px;
     }
 
 
@@ -293,6 +304,8 @@
 
 
   --clr-myblue-5000--plus-font: #001328; /* ## turbulent.ca */
+
+  --clr-myblue-1800: #635bff; /* stripe.com */
   
     --clr-myblue-2000--font: #04E3FF; /* ## turbulent.ca */
     
@@ -508,6 +521,9 @@ img {
 
     background: transparent;
 
+    border: transparent;
+    
+
 }
 
 .navbar .container .login-menu a i {
@@ -545,6 +561,7 @@ img {
     /* height: 500px; */
 }
 
+/* flex for iframes */
 .leisure .mycontainer .frame,
  .coffee-expert .mycontainer .frame {
     display: flex;
@@ -562,7 +579,7 @@ img {
 
 .leisure .mycontainer .frame p,
 .coffee-expert .mycontainer .frame p{
-    font-size:2rem;
+    font-size:1rem;
     text-align: center;
 }
 
@@ -570,6 +587,30 @@ img {
 /**
 * ! ----        coffee-expert      ***********************************
 **/
+
+
+
+/**
+*?      ====================         programming          ====================
+**/
+.programming .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+
+    gap: 20px;
+
+    /* margin: 10px; */
+
+}
+
+.programming .container .frame p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 5px 0;
+}
 
 
 
@@ -589,7 +630,10 @@ img {
     padding: 0 20px;
 }
 
-
+/* navbar active  mb- utility class */
+.active {
+    border-bottom: 2px  solid #001328;
+}
 
 /**
 *?      ====================         BUTTONS          ====================
