@@ -1,8 +1,50 @@
 {% load static %}
+<!-- ............................................ -->
+<!-- /**
+* ! ======================================================================
+* ! ======================================================================
+
+ * ! copied from porfolio.css -----override if necessary ==== START >
+
+**/ -->
+
+
+<nav class="mystatement">
+    <div class="mycontainer">
+        <div class="mystatement-left">
+            <a href='https://www.facebook.com/Code.org/' >
+
+       <!-- url 'https://www.facebook.com/Code.org/' ## doesnot work pcsn= -->
+
+                Support Code.org
+            </a>
+           
+        </div>
+        <div class="mystatement-right">
+            <a href='https://www.facebook.com/Code.org/' >
+                Coding Literacy Advocate
+            </a>
+        </div>
+    </div>
+    
+</nav>
+<!-- 
+/**
+* ! ======================================================================
+* ! ======================================================================
+
+ * ! copied from porfolio.css -----override if necessary ==== end/// >
+
+**/ -->
+
+<!-- ............................................ -->
 <nav class="navbar">
     <div class="container">
         <div class="navbar-menu">
+            <a href='https://www.facebook.com/Code.org/' >
             <img src="{% static 'images/CC-logo-16-16--final.svg' %}" alt="logo"/>
+           </a>
+            
             <div class="nav-links">
                 <a>Projects</a>
                 <a>Coffee</a>
@@ -11,9 +53,10 @@
             </div>
         </div>
         <div class="login-menu">
-            <a href="{% url 'home' %}" class="btn" href="#"> <i class="fas fa-user"></i>login</a>
-
-
+            <a href="{% url 'home' %}" class="btn-removed-sn" href="#"> <i class="fas fa-user"></i>login</a>
+            
+            
         </div>
     </div>
 </nav>
+<!-- ............................................ -->

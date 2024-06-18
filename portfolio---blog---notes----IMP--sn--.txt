@@ -1,0 +1,6 @@
+
+I am inspired by few developers who share their ideas online especially youtube.
+one of them is Caleb Curry.
+
+Many fearmongers will tell how difficult making API with Django is but watch the video below where the developer explains things in simplest terms.
+

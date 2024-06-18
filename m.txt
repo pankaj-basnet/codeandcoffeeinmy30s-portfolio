@@ -1,0 +1,161 @@
+Create data-driven websites by using the Python framework Django
+3 hr
+Learning Path
+6 Modules
+Intermediate
+Developer
+Student
+Azure
+Azure App Service
+Use Django to create data-driven websites.
+
+In this learning path, you'll use Django to:
+
+Build an app.
+Create and manage a database.
+Set up a superuser for the admin site.
+Use templates to create dynamic HTML pages.
+Design data-driven forms.
+Prerequisites
+Intermediate knowledge of Python:
+Package management
+Inheritance and mix-ins
+Intermediate understanding of HTML and CSS
+Modules in this learning path
+
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+1000 XP
+
+Get started with Django
+32 min
+Module
+9 Units
+Django is one of the most popular Python web frameworks. It's especially powerful when working with a data-driven application, where the main goal is to provide a front end to a database. Django comes with numerous features built in to streamline the development process. In this module, we explore the benefits of Django, how to install it, and how to create your first project.
+
+
+Introduction2 min
+What is Django?2 min
+Exercise - Install Django7 min
+Explore basic concepts in Django2 min
+Exercise - Create your first project6 min
+Understand paths and views2 min
+Exercise - Create paths and views7 min
+Knowledge check2 min
+Summary2 min
+
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+1100 XP
+
+Work with models and data in Django
+20 min
+Module
+10 Units
+Django is focused on data-driven applications, so it provides its own object-relational mapper (ORM). We'll explore ORM concepts and how the Django ORM works. We'll create our own models and set up the database.
+
+Introduction2 min
+Exercise - Set up the project and install Django2 min
+Django object-relational mapper2 min
+Models in Django2 min
+Exercise - Create models2 min
+Manage the database2 min
+Exercise - Create the database schema2 min
+Exercise - Work with data2 min
+Knowledge check2 min
+Summary2 min
+
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+900 XP
+
+Work with the Django admin site
+38 min
+Module
+8 Units
+Probably the most popular feature of the Python framework Django is its built-in admin site, which allows internal users to manage data without having to create a special utility. We'll explore how to configure users to use this site and how to set up the site itself.
+
+Introduction to the Django admin site2 min
+Exercise - Get the starter project6 min
+Permissions for the admin site4 min
+Exercise - Create users8 min
+Exercise - Manage data8 min
+Exercise - Manage permissions6 min
+Knowledge check3 min
+Summary1 min
+
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+900 XP
+
+Create views and templates in Django
+38 min
+Module
+8 Units
+As with every web framework, Django has a templating engine for creating dynamic HTML. The information that the user wants to access is created by this engine and presented through views. We'll explore how the engine works and the process of creating views in Django.
+
+Introduction2 min
+Exercise - Get the starter project5 min
+Get started with views6 min
+Exercise - Create views8 min
+Get started with Django templates7 min
+Exercise - Create templates6 min
+Knowledge check2 min
+Summary2 min
+
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+1000 XP
+
+Use generic views in Django
+32 min
+Module
+9 Units
+Because Django was designed for data-driven applications, it includes numerous built-in utilities to streamline the amount of code needed. One key area where Django makes a developer's life easier is by providing generic views, which are prebuilt with all the necessary code to perform core operations like displaying and editing data. We'll see how we can use generic views to greatly reduce the amount of code required.
+
+Introduction2 min
+Exercise - Set up the starter project2 min
+Use generic views to display data7 min
+Exercise - Implement generic views to display data2 min
+Use generic views to edit data6 min
+Exercise - Implement generic views to edit data2 min
+Exercise - Implement django-crispy-forms7 min
+Knowledge check2 min
+Summary2 min
+
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+# ====================================================
+900 XP
+
+Deploy a Django application to Azure by using PostgreSQL
+20 min
+Module
+8 Units
+To make your application available to the world, you need to host it somewhere. Here you'll deploy your application to Azure and create a database for the data.
+
+Deploy to Azure1 min
+Get the starter2 min
+Deployment considerations1 min
+Prepare your application for deployment5 min
+Deployment considerations1 min
+Deploy to Azure7 min
+Knowledge check2 min
+Summary1 min

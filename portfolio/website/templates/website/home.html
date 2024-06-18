@@ -1,5 +1,131 @@
 {% extends "website/base.html" %}
+{% load static %}
 
 {% block basecontent %}
-  this is home page
+
+
+<!-- ============================================================================== -->
+
+<section class="top-intro">
+  <!-- https://about.gitlab.com/ -->
+
+  <!-- ## couldnot make linear gradient ---reference from various souces pcsn-  -->
+  <!-- <div class="mycontainer" style="height: 100px; width: 100%; background: linear-gradient(1turn,#6ad75e,#e8ede7bf 24.94%,#738800); z-index: -1;">
+      <p>class="mycontainer" style="height: 100px; width: 100%; background: linear-gradient(1turn,#fff,hsla(0,0%,100%,.75) 24.94%,hsla(0,0%,100%,0)); z-index: -1;</p>
+      portfolio page
+      
+  </div>
+  <div class="mycontainer" style="height: 100px; width: 100%; background: linear-gradient(1turn,#6ad75e,#e8ede7bf 24.94%,#738800); z-index: -1;">
+      <p>class="mycontainer" style="height: 100px; width: 100%; background: linear-gradient(90deg, #4831d4 67%, #ccf381 33%); z-index: -1;</p>
+      portfolio page
+      
+  </div> -->
+  <!-- ------------------------------------------ -->
+
+  <!-- =======================================================================*********=== -->
+  
+  <div class="mycontainer">
+    <div class="intro-details intro-pankaj">
+      <span>Pankaj Basnet &nbsp; &nbsp; &nbsp; <i class="fa-brands fa-python"></i> &nbsp; &nbsp; Python / Django developer </span>
+      <!-- <p><span>Pankaj Basnet &nbsp; &nbsp; &nbsp; <i class="fa-brands fa-python"></i></span> <span> &nbsp; &nbsp; Python / Django developer </span></p> -->
+      <br>
+      <p></p>
+      <p>I started coding at age 29.</p>
+      <!-- <p>I got my first coding job at age 29.</p> -->
+      <p>Coding is not hard. Start small and slowly add on it.</p>
+      <p>This porfolio is the good project for beginners learning python, django, and web development in general.</p>
+      <p>Django community is supportive. Information is available if you look for it.</p>
+    </div>
+
+    <div class="intro-pic">
+      <img src="{% static 'images/cc---640-426.jpg' %}" alt="">
+    </div>
+      
+  
+  <!-- ... -->
+  <!-- <div class="mycontainer">
+      <h1>top-intro</h1>
+      <a href="codeandcoffeeinmy30s.com">Dave Gray</a> <span> &nbsp; &nbsp; Python / Django developer </span>
+      <p>I got my first teaching job ............</p>
+      <p>.</p> -->
+      
+  <!-- =======================================================================*********=== -->
+  <!-- ... -->
+</div>
+</section>
+<!-- <hr> -->
+
+  <!-- =======================================================================*********=== -->
+
+<section class="myprojects">
+  <div class="mycontainer">
+    <div class="myprojects-icons">
+      <img src="{% static 'images/Python-logo-wiki.svg' %}"></img>
+    <img src="{% static 'images/django-logo-negative.svg' %}"></img>
+   <i class="fa-brands fa-html5 fa-10x"></i>
+   <i class="fa-brands fa-js fa-10x"></i>
+  </div>
+     
+   
+  <!-- ... -->
+
+      <!-- <h1>My Projects</h1>
+
+      <a href="codeandcoffeeinmy30s.com">Dave Gray</a> <span> &nbsp; &nbsp; Python / Django developer </span>
+      <p>I got my first teaching job ............</p>
+      <p>.</p> -->
+       
+  <!-- =======================================================================*********=== -->
+  <!-- ... -->
+   
+  </div>
+</section>
+
+<section class="leisure">
+  <div class="mycontainer">
+    <div class="frame">
+      <div>
+        <p>In my leisure , I listen to podcasts and talks by various people from different fields.</p>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dZ3_Uw5H8zc?si=foEBenLoV0XPZ119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+  </div>
+</section>
+
+<section class="mycoffee text-center">
+  <div class="mycontainer">
+      <p>I am a coffee ethusiast and started researching on best mountain coffee since few years back.</p>
+      <p><a href="#">more about my crazy coffee adventure</a></p>
+      <br>
+
+      <p>Thanks to my buddies who are travel guide professionals , invited me to trip to Namche Bazaar back in 2019, I got the taste of nepalese mountain coffee. </p>
+      <p>Now, I try new method of making a cup of coffee everyday to make it sweeter before i start coding thoughout the day.</p>
+
+  </div>
+</section>
+
+<section class="mycoffeecharity mycontainer text-center">
+  Proceeds from coffee beans sales goes to Sukhawati Store for their "Clothing for Poor intiative"
+</section>
+
+  
+
+<section class="coffee-expert">
+  <div class="mycontainer">
+    <div class="frame">
+
+      <p>Why am I crazy about coffee? Listen to Nepal's coffee expert below</p>
+
+      <div class="">
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/C-eWRbE9aE8?si=2LwrBrT75c_C9YKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
 {% endblock basecontent %}
+
