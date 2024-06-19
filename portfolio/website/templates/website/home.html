@@ -94,8 +94,11 @@
       </p>
 
     </div>
-    <div>
+    <div class="video-frame">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/i5JykvxUk_A?si=9PWpNvXf7Nx8BbGy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div>
+      <p class="btn"><a href="{% url 'coding' %}">More coding resources in my coding blog page</a></p>
     </div>
   </div>
 </section>
@@ -103,13 +106,41 @@
 
 <section class="leisure">
   <div class="mycontainer">
+    <img class="demo-bg"
+       src="static/images/journo-laptop-1920--nu--.jpg" alt="">
+    </img>
     <div class="frame">
-      <div>
-        <p>In my leisure , I listen to podcasts and talks by various people from different fields.</p>
+      <div class="zero-row">
+        <br>
+        <p></p>
+        <p></p>
       </div>
-      <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dZ3_Uw5H8zc?si=foEBenLoV0XPZ119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="first-row">
+          <p>I am a Journalism major undergrad student.</p>
+          <p>I try to follow  news and stories around the world</p>
+        
+          <p>In my leisure , I listen to podcasts and talks by various people from different fields.</p>
+        
+        
       </div>
+      <div class="second-row">
+        
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dZ3_Uw5H8zc?si=foEBenLoV0XPZ119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
+
+      </div>
+      <div class="third-row">
+        <p>I worked as junior tax consultant during my early career days</p>
+        <p>I want a career in Fintech, Blockchain technology and other financial technology.</p>
+        <p>I closely follow Ethereum blockchain development which , in my opinion, seems to have bigger potential than Bitcoin.</p>
+        <p>Currently, I am improving my math skills for data structure and algorithm.</p>
+        <p>I am focusing on machine learning and data science as well.</p>
+        <p><a class= 'btn' href="{% url 'coding' %}">more on my current action plan for coding</a></p>
+ 
+
+
+      </div>
+    </div>
   </div>
 </section>
 
@@ -121,6 +152,8 @@
 
       <p>Thanks to my buddies who are travel guide professionals , invited me to trip to Namche Bazaar back in 2019, I got the taste of nepalese mountain coffee. </p>
       <p>Now, I try new method of making a cup of coffee everyday to make it sweeter before i start coding thoughout the day.</p>
+
+      <p><a href="{% url 'home' %}">Shop for local coffee beans in Kathmandu</a></p>
 
   </div>
 </section>
@@ -137,7 +170,7 @@
 
       <p>Why am I crazy about coffee? Listen to Nepal's coffee expert below</p>
 
-      <div class="">
+      <div class="video-frame">
         <div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/AYQNHCgEvP4?si=V44WrqHQ24Bj9RyX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>

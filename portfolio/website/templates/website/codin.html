@@ -1,0 +1,1003 @@
+<!DOCTYPE html><html
+	class=" is-full hasPageActions hasBreadcrumb learningpath has-default-focus theme-light"
+	lang="en-us"
+	dir="ltr"
+	data-authenticated="false"
+	data-auth-status-determined="false"
+	data-target="docs"
+	x-ms-format-detection="none">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="Create data-driven websites by using the Python framework Django - Training" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://learn.microsoft.com/en-us/training/paths/django-create-data-driven-websites/" /><meta property="og:description" content="Use the Python framework Django to create data-driven websites." /><meta property="og:image" content="https://learn.microsoft.com/training/achievements/django-create-data-driven-websites-social.png" />
+
+	<meta property="og:image:alt" content="Create data-driven websites by using the Python framework Django - Training | Microsoft Learn" />
+
+	<meta name="twitter:card" content="summary" />
+
+	<meta name="twitter:site" content="@MicrosoftLearn" />
+
+	<meta name="color-scheme" content="light dark"><meta name="author" content="GeekTrainer" />
+<meta name="breadcrumb_path" content="/learn/breadcrumb/toc.json" />
+<meta name="clicktale" content="true" />
+<meta name="depot_name" content="Docs.learn-pr" />
+<meta name="description" content="Use the Python framework Django to create data-driven websites." />
+<meta name="document_id" content="9ec5ba47-619c-4899-257f-2a50a8595bc5" />
+<meta name="document_version_independent_id" content="8d2e6c47-b00a-ce33-920f-1a2ec70e50d4" />
+<meta name="feedback_help_link_type" content="" />
+<meta name="feedback_help_link_url" content="" />
+<meta name="feedback_product_url" content="" />
+<meta name="feedback_system" content="GitHub" />
+<meta name="git_commit_id" content="33d1a0577cbb7fbe5c9dc0e859a4ae2ff852cf27" />
+<meta name="gitcommit" content="https://github.com/MicrosoftDocs/learn-pr/blob/33d1a0577cbb7fbe5c9dc0e859a4ae2ff852cf27/learn-pr/paths/django-create-data-driven-websites/index.yml" />
+<meta name="locale" content="en-us" />
+<meta name="ms.author" content="chnoring" />
+<meta name="ms.custom" content="vscode-azure-extension-update-completed" />
+<meta name="ms.date" content="03/11/2021" />
+<meta name="ms.topic" content="learning-path" />
+<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/learn-pr/blob/live/learn-pr/paths/django-create-data-driven-websites/index.yml" />
+<meta name="page_kind" content="path" />
+<meta name="page_type" content="learn" />
+<meta name="schema" content="LearningPath" />
+<meta name="site_name" content="Docs" />
+<meta name="uhfHeaderId" content="MSDocsHeader-Learn" />
+<meta name="uid" content="learn.django-create-data-driven-websites" />
+<meta name="updated_at" content="2024-03-19 05:16 PM" />
+<meta name="persistent_id" content="530d8c16-b0f8-8ec4-c7ce-5f8ed8e251d7" />
+	
+	<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/68ec7f3a-2bc6-459f-b959-19beb729907d" data-source="generated" />
+	<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/68cb9039-df60-49b0-8ef8-89ad96497f63" data-source="generated" />
+	<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/7ebba99b-05c3-4387-8883-f7bbf6632cb8" data-source="generated" />
+	
+	<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/90370425-aca4-4a39-9533-d52e5e002a5d" data-source="generated" />
+	<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/725b6df3-93e8-472d-834e-e7e0d2953d35" data-source="generated" />
+	<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/006ab567-b18c-4cf1-9a25-c24daa46ede1" data-source="generated" />
+	<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/learn/blob/main/learn-pr/paths/django-create-data-driven-websites/index.yml" /><link href="https://learn.microsoft.com/en-us/training/paths/django-create-data-driven-websites/" rel="canonical"><title>Create data-driven websites by using the Python framework Django - Training | Microsoft Learn</title><link rel="stylesheet" href="/static/assets/0.4.027255329/styles/site-ltr.css">
+
+	<script id="msdocs-script">
+	var msDocs = {environment: {
+			supportLevel: 'production',
+			accessLevel: 'online',
+			reviewFeatures: false,
+			systemContent: true,
+			azurePortalHostname: 'portal.azure.com',
+			legacyHosting: false,
+			siteName: 'learn',
+		},data: {
+			timeOrigin: Date.now(),
+			contentLocale: 'en-us',
+			contentDir: 'ltr',
+			userLocale: 'en-us',
+			userDir: 'ltr',
+			pageTemplate: 'LearningPath',
+			brand: 'azure',
+			context: {},
+			hasBinaryRating: false,
+			hasGithubIssues: false,
+			feedbackHelpLinkType:'',
+			feedbackHelpLinkUrl:'',
+			standardFeedback: false,
+			showFeedbackReport: false,
+			enableTutorialFeedback: false,
+			feedbackSystem: 'GitHub',
+			feedbackGitHubRepo: 'MicrosoftDocs/learn',
+			feedbackProductUrl: '',extendBreadcrumb: false,isEditDisplayable: false,
+			hideViewSource: false,
+			hasPageActions: true,
+			hasPrintButton: false,
+			hasBookmark: false,
+			hasShare: false,
+			isPermissioned: false,
+			isPrivateUnauthorized: false,hasRecommendations: false,contributors: [{ name: "kjo-msft", url: "https://github.com/kjo-msft" },{ name: "alexbuckgit", url: "https://github.com/alexbuckgit" },{ name: "vmagelo", url: "https://github.com/vmagelo" },{ name: "softchris", url: "https://github.com/softchris" },{ name: "ktoliver", url: "https://github.com/ktoliver" },{ name: "ShannonLeavitt", url: "https://github.com/ShannonLeavitt" }],},
+		functions:{}
+	};
+	</script><script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+	<script src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script><script src="/static/assets/0.4.027255329/global/deprecation.js"></script><script src="/static/assets/0.4.027255329/scripts/en-us/index-learner-experience.js"></script></head>
+
+<body lang="en-us" dir="ltr">
+	<div class="header-holder has-default-focus">
+		<a href="#main" class="skip-to-main-link has-outline-color-text visually-hidden-until-focused position-fixed has-inner-focus focus-visible top-0 left-0 right-0 padding-xs has-text-centered has-body-background" tabindex="1">Skip to main content</a>
+
+		<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+
+		<div id="unsupported-browser" style="
+			background-color: white;
+			color: black;
+			padding: 16px;
+			border-bottom: 1px solid grey;"
+			hidden
+		>
+			<div style="max-width: 800px; margin: 0 auto;">
+				<p style="font-size: 24px">This browser is no longer supported.</p>
+				<p style="font-size: 16px; margin-top: 16px;">Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.</p>
+				<div style="margin-top: 12px;">
+					<a href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+						style="
+						background-color: #0078d4;
+						border: 1px solid #0078d4;
+						color: white;
+						padding: 6px 12px;
+						border-radius: 2px;
+						display: inline-block;
+						">Download Microsoft Edge</a>
+					<a href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+						style="
+							background-color: white;
+							padding: 6px 12px;
+							border: 1px solid #505050;
+							color: #171717;
+							border-radius: 2px;
+							display: inline-block;
+							">More info about Internet Explorer and Microsoft Edge</a>
+				</div>
+			</div>
+		</div>
+		<!-- liquid-tag banners global -->
+
+		<!-- site header -->
+		<header id="ms--site-header" data-test-id="site-header-wrapper" role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization">
+			<div id="ms--mobile-nav" class="site-header display-none-tablet padding-inline-none gap-none" data-bi-name="mobile-header" data-test-id="mobile-header"></div>
+			<div id="ms--primary-nav" class="site-header display-none display-flex-tablet" data-bi-name="L1-header" data-test-id="primary-header"></div>
+			<div id="ms--secondary-nav" class="site-header display-none display-flex-tablet" data-bi-name="L2-header" data-test-id="secondary-header"></div>
+		</header><div id="content-header" class="content-header uhf-container has-padding has-default-focus border-bottom-none" data-bi-name="content-header">
+				<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+					<button type="button" class="contents-button button button-sm margin-right-xxs" data-bi-name="contents-expand" aria-haspopup="true" data-contents-button>
+						<span class="icon"><span class="docon docon-menu" aria-hidden="true"></span></span>
+						<span class="contents-expand-title">Table of contents</span>
+					</button>
+					<button type="button" class="ap-collapse-behavior ap-expanded button button-sm" data-bi-name="ap-collapse" aria-controls="action-panel">
+						<span class="icon"><span class="docon docon-exit-mode" aria-hidden="true"></span></span>
+						<span>Exit focus mode</span>
+					</button>
+				</div>
+			</div><div id="disclaimer-holder" class="has-overflow-hidden has-default-focus">
+			<!-- liquid-tag banners sectional -->
+		</div>
+	</div>
+
+	<div class="mainContainer  uhf-container has-body-background-dark uhf-container is-full  has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps is-gapless-mobile  is-gapless"><!-- .primary-holder -->
+			<section class="primary-holder column ">
+				<!--div.columns -->
+				<div class="columns is-gapless-mobile has-large-gaps  is-gapless"><div id="main-column" class="column ">
+
+						<main id="main" class="" role="main" data-bi-name="content" lang="en-us" dir="ltr"><!-- article-header -->
+							<div id="article-header" class="background-color-body  display-none-print">
+								<div class="display-flex align-items-center uhf-container"><details id="article-header-breadcrumbs-overflow-popover" class="popover" data-for="article-header-breadcrumbs">
+										<summary class="button button-clear button-primary button-sm inner-focus" aria-label="All breadcrumbs">
+											<span class="icon">
+												<span class="docon docon-more"></span>
+											</span>
+										</summary>
+										<div id="article-header-breadcrumbs-overflow" class="popover-content padding-none">
+
+										</div>
+									</details>
+
+									<bread-crumbs id="article-header-breadcrumbs" data-test-id="article-header-breadcrumbs" class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"></bread-crumbs><div id="article-header-page-actions"  class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"><a
+											id="lang-link-tablet"
+											class="button button-primary button-clear button-sm display-none display-inline-flex-tablet"
+											title="Read in English" data-bi-name="language-toggle"
+											data-read-in-link
+											hidden>
+											<span class="icon margin-none" aria-hidden="true" data-read-in-link-icon>
+												<span class="docon docon-locale-globe"></span>
+											</span>
+											<span class="is-visually-hidden" data-read-in-link-text>Read in English</span>
+										</a>
+										<details class="popover popover-right" id="article-header-page-actions-overflow">
+											<summary class="justify-content-flex-start button button-clear button-sm button-primary" aria-label="More actions" title="More actions">
+												<span class="icon" aria-hidden="true">
+													<span class="docon docon-more-vertical"></span>
+												</span>
+											</summary>
+											<div class="popover-content padding-xs"><a
+													id="lang-link-overflow"
+													class="justify-content-flex-start button-sm has-inner-focus button button-clear button-block display-none-tablet"
+													title="Read in English" data-bi-name="language-toggle"
+													data-page-action-item="overflow-mobile"
+													data-check-hidden="true"
+													data-read-in-link
+													hidden
+													>
+													<span class="icon" aria-hidden="true" data-read-in-link-icon>
+														<span class="docon docon-locale-globe"></span>
+													</span>
+													<span data-read-in-link-text>Read in English</span>
+												</a>
+											</div>
+										</details>
+										
+									</div></div>
+							</div>
+							<!-- end article-header --><div>
+								<button type="button" class="border contents-button button button-clear button-sm is-hidden-tablet has-inner-focus" data-bi-name="contents-expand" data-contents-button hidden>
+									<span class="icon">
+										<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+									</span><span class="contents-expand-title">Table of contents</span></button>
+							</div><!-- end mobile-contents button  -->
+
+							<div class=""><!-- <content> --><div class="has-body-background">
+	<div class="modular-content-container">
+		<div class="section is-small is-uniform padding-top-sm padding-top-lg-tablet padding-top-sm-desktop position-relative">
+			<div class="columns has-large-gaps margin-none">
+
+				<figure class="image is-112x112-desktop is-96x96 margin-bottom-sm">
+					<img role="presentation" src="/en-us/training/achievements/django-create-data-driven-websites.svg" alt="" data-linktype="absolute-path">
+				</figure>
+
+				<div class="column padding-none padding-sm-tablet position-relative-tablet">
+					<div data-progress-uid="learn.django-create-data-driven-websites" class="xp-tag is-hidden position-absolute top-0 margin-top-xs margin-top-sm-tablet margin-top-none-desktop right-0 margin-right-sm margin-right-lg-tablet">
+						<div class="xp-tag-hexagon">
+							<span class="xp-tag-icon is-shown-complete docon docon-check"></span>
+							<span aria-hidden="true" class="xp-tag-xp"></span>
+						</div>
+					</div>
+					<div class="columns is-mobile is-gapless margin-bottom-none">
+						<div class="column is-auto heading-container">
+							<h1 class="title is-2 margin-none margin-right-xxl-tablet">Create data-driven websites by using the Python framework Django</h1>
+							<ul class="metadata page-metadata">
+								<li id="time-remaining"></li>
+								<li>
+									Learning Path
+								</li>
+								<li id="modules-remaining">
+									6 Modules
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="font-size-sm tags margin-block-xxs is-hidden-portrait">
+							<div class="tag font-size-xs">
+								Intermediate
+							</div>
+							<div class="tag font-size-xs">
+								Developer
+							</div>
+							<div class="tag font-size-xs">
+								Student
+							</div>
+							<div class="tag font-size-xs">
+								Azure
+							</div>
+							<div class="tag font-size-xs">
+								Azure App Service
+							</div>
+					</div>
+
+
+					<div class="learn-summary font-size-md content"><p>Use Django to create data-driven websites.</p>
+<p>In this learning path, you'll use Django to:</p>
+<ul>
+<li>Build an app.</li>
+<li>Create and manage a database.</li>
+<li>Set up a superuser for the admin site.</li>
+<li>Use templates to create dynamic HTML pages.</li>
+<li>Design data-driven forms.</li>
+</ul>
+</div>
+
+						<div class="prerequisites font-size-sm content margin-bottom-xs">
+							<h2 class="title is-6 margin-top-xxs margin-bottom-none">Prerequisites</h2>
+							<ul>
+<li>Intermediate knowledge of Python:
+<ul>
+<li>Package management</li>
+<li>Inheritance and mix-ins</li>
+</ul>
+</li>
+<li>Intermediate understanding of HTML and CSS</li>
+</ul>
+
+						</div>
+
+					<div id="learning-path-actions" class="buttons">
+						<button type="button" class="collection button button-clear has-inner-focus margin-right-none" data-bi-name="collection" data-list-item-title="Create data-driven websites by using the Python framework Django" data-list-source="learning-path" data-list-type="collection">
+							<span class="icon has-text-primary" aria-hidden="true">
+								<span class="docon docon-circle-addition"></span>
+							</span>
+							<span class="add-to-collection-status">
+								Save
+							</span>
+						</button>
+					</div>
+					<div id="learning-path-further-engagement" hidden=""></div>
+<div id="partner-and-code-container" class="text-align-center padding-block-md background-color-secondary-light" hidden="">
+	<div id="request-code-achievement-container" hidden="">
+		<p class="margin-bottom-xxs"><strong>Achievement Code</strong></p>
+		<p class="margin-bottom-xs">Would you like to request an achievement code?</p>
+		<button class="button button-clear button-sm border" data-bi-name="request-achievement-code" data-show-modal="">Request achievement code</button>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modular-content-container">
+	<div class="section is-small is-uniform padding-none padding-block-lg-tablet padding-inline-sm-tablet padding-sm-desktop has-body-background-mobile">
+		<h2 class="title is-5 padding-left-sm padding-left-none-tablet">Modules in this learning path</h2>
+			<div id="learn.django.get-started" class="box margin-none margin-bottom-sm-tablet padding-none is-shadowless-mobile border-top position-relative" data-bi-name="module">
+	<div class="padding-sm padding-bottom-none-tablet">
+		<div data-progress-uid="learn.django.get-started" class="xp-tag is-hidden position-absolute top-0 margin-top-lg-tablet margin-top-xs right-0 margin-right-lg-tablet margin-right-sm">
+			<div class="xp-tag-hexagon">
+				<span class="xp-tag-icon is-shown-complete docon docon-check"></span>
+				<span aria-hidden="true" class="xp-tag-xp"></span>
+			</div>
+		</div>
+		<div class="columns has-large-gaps margin-none">
+
+			<div class="image is-96x96 is-hidden-mobile">
+				<a aria-hidden="true" tabindex="-1" href="../../modules/django-get-started/" class="display-block" data-linktype="relative-path">
+					<img role="presentation" src="/en-us/training/achievements/django-get-started.svg" alt="" data-linktype="absolute-path">
+				</a>
+			</div>
+
+			<div class="column is-auto padding-none padding-top-sm padding-sm-tablet">
+				<div class="columns has-large-gaps is-mobile margin-none padding-bottom-xs">
+					<div class="column is-narrow is-hidden-tablet padding-top-none padding-left-none">
+						<div class="image is-max-48x48">
+							<img role="presentation" src="/en-us/training/achievements/django-get-started.svg" alt="" data-linktype="absolute-path">
+						</div>
+					</div>
+					<div class="column is-auto padding-none">
+						<a href="../../modules/django-get-started/" class="display-block text-decoration-none font-weight-semibold font-size-h6 margin-none has-content-margin-right-xxl-tablet" data-linktype="relative-path">
+							Get started with Django
+						</a>
+						<ul class="metadata page-metadata">
+							<li class="module-time-remaining"></li>
+							<li class="module-type"></li>
+							<li class="module-units-remaining"></li>
+						</ul>
+						<div class="page-rating">
+						</div>
+					</div>
+				</div>
+				<div class="is-hidden-portrait padding-inline-sm padding-inline-none-tablet">
+					<div class="font-size-md module-summary"><p>Django is one of the most popular Python web frameworks. It's especially powerful when working with a data-driven application, where the main goal is to provide a front end to a database. Django comes with numerous features built in to streamline the development process. In this module, we explore the benefits of Django, how to install it, and how to create your first project.</p>
+</div>
+					<div data-bi-name="units">
+						<button class="button button-clear text-decoration-none button-sm unit-expander" data-bi-name="expander" aria-expanded="true" aria-controls="aria-learn.django.get-started" aria-label="">
+							<span class="module-overview font-weight-semibold font-size-sm"></span>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-chevron-down-light expanded-indicator"></span>
+							</span>
+						</button>
+						<div id="aria-learn.django.get-started" class="module-units">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="border-top padding-xxs padding-right-xs">
+		<div class="buttons buttons-right">
+			<button type="button" class="collection button button-clear button-primary has-inner-focus button-sm margin-right-none" data-bi-name="collection" data-list-item-title="Get started with Django" data-list-item-url=" " data-list-type="collection">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-circle-addition"></span>
+				</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+			<div id="learn.django.models-data" class="box margin-none margin-bottom-sm-tablet padding-none is-shadowless-mobile border-top position-relative" data-bi-name="module">
+	<div class="padding-sm padding-bottom-none-tablet">
+		<div data-progress-uid="learn.django.models-data" class="xp-tag is-hidden position-absolute top-0 margin-top-lg-tablet margin-top-xs right-0 margin-right-lg-tablet margin-right-sm">
+			<div class="xp-tag-hexagon">
+				<span class="xp-tag-icon is-shown-complete docon docon-check"></span>
+				<span aria-hidden="true" class="xp-tag-xp"></span>
+			</div>
+		</div>
+		<div class="columns has-large-gaps margin-none">
+
+			<div class="image is-96x96 is-hidden-mobile">
+				<a aria-hidden="true" tabindex="-1" href="../../modules/django-models-data/" class="display-block" data-linktype="relative-path">
+					<img role="presentation" src="/en-us/training/achievements/django-models-data.svg" alt="" data-linktype="absolute-path">
+				</a>
+			</div>
+
+			<div class="column is-auto padding-none padding-top-sm padding-sm-tablet">
+				<div class="columns has-large-gaps is-mobile margin-none padding-bottom-xs">
+					<div class="column is-narrow is-hidden-tablet padding-top-none padding-left-none">
+						<div class="image is-max-48x48">
+							<img role="presentation" src="/en-us/training/achievements/django-models-data.svg" alt="" data-linktype="absolute-path">
+						</div>
+					</div>
+					<div class="column is-auto padding-none">
+						<a href="../../modules/django-models-data/" class="display-block text-decoration-none font-weight-semibold font-size-h6 margin-none has-content-margin-right-xxl-tablet" data-linktype="relative-path">
+							Work with models and data in Django
+						</a>
+						<ul class="metadata page-metadata">
+							<li class="module-time-remaining"></li>
+							<li class="module-type"></li>
+							<li class="module-units-remaining"></li>
+						</ul>
+						<div class="page-rating">
+						</div>
+					</div>
+				</div>
+				<div class="is-hidden-portrait padding-inline-sm padding-inline-none-tablet">
+					<div class="font-size-md module-summary"><p>Django is focused on data-driven applications, so it provides its own object-relational mapper (ORM). We'll explore ORM concepts and how the Django ORM works. We'll create our own models and set up the database.</p>
+</div>
+					<div data-bi-name="units">
+						<button class="button button-clear text-decoration-none button-sm unit-expander" data-bi-name="expander" aria-expanded="true" aria-controls="aria-learn.django.models-data" aria-label="">
+							<span class="module-overview font-weight-semibold font-size-sm"></span>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-chevron-down-light expanded-indicator"></span>
+							</span>
+						</button>
+						<div id="aria-learn.django.models-data" class="module-units">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="border-top padding-xxs padding-right-xs">
+		<div class="buttons buttons-right">
+			<button type="button" class="collection button button-clear button-primary has-inner-focus button-sm margin-right-none" data-bi-name="collection" data-list-item-title="Work with models and data in Django" data-list-item-url=" " data-list-type="collection">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-circle-addition"></span>
+				</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+			<div id="learn.django.admin-site" class="box margin-none margin-bottom-sm-tablet padding-none is-shadowless-mobile border-top position-relative" data-bi-name="module">
+	<div class="padding-sm padding-bottom-none-tablet">
+		<div data-progress-uid="learn.django.admin-site" class="xp-tag is-hidden position-absolute top-0 margin-top-lg-tablet margin-top-xs right-0 margin-right-lg-tablet margin-right-sm">
+			<div class="xp-tag-hexagon">
+				<span class="xp-tag-icon is-shown-complete docon docon-check"></span>
+				<span aria-hidden="true" class="xp-tag-xp"></span>
+			</div>
+		</div>
+		<div class="columns has-large-gaps margin-none">
+
+			<div class="image is-96x96 is-hidden-mobile">
+				<a aria-hidden="true" tabindex="-1" href="../../modules/django-admin-site/" class="display-block" data-linktype="relative-path">
+					<img role="presentation" src="/en-us/training/achievements/django-admin-site.svg" alt="" data-linktype="absolute-path">
+				</a>
+			</div>
+
+			<div class="column is-auto padding-none padding-top-sm padding-sm-tablet">
+				<div class="columns has-large-gaps is-mobile margin-none padding-bottom-xs">
+					<div class="column is-narrow is-hidden-tablet padding-top-none padding-left-none">
+						<div class="image is-max-48x48">
+							<img role="presentation" src="/en-us/training/achievements/django-admin-site.svg" alt="" data-linktype="absolute-path">
+						</div>
+					</div>
+					<div class="column is-auto padding-none">
+						<a href="../../modules/django-admin-site/" class="display-block text-decoration-none font-weight-semibold font-size-h6 margin-none has-content-margin-right-xxl-tablet" data-linktype="relative-path">
+							Work with the Django admin site
+						</a>
+						<ul class="metadata page-metadata">
+							<li class="module-time-remaining"></li>
+							<li class="module-type"></li>
+							<li class="module-units-remaining"></li>
+						</ul>
+						<div class="page-rating">
+						</div>
+					</div>
+				</div>
+				<div class="is-hidden-portrait padding-inline-sm padding-inline-none-tablet">
+					<div class="font-size-md module-summary"><p>Probably the most popular feature of the Python framework Django is its built-in admin site, which allows internal users to manage data without having to create a special utility. We'll explore how to configure users to use this site and how to set up the site itself.</p>
+</div>
+					<div data-bi-name="units">
+						<button class="button button-clear text-decoration-none button-sm unit-expander" data-bi-name="expander" aria-expanded="true" aria-controls="aria-learn.django.admin-site" aria-label="">
+							<span class="module-overview font-weight-semibold font-size-sm"></span>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-chevron-down-light expanded-indicator"></span>
+							</span>
+						</button>
+						<div id="aria-learn.django.admin-site" class="module-units">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="border-top padding-xxs padding-right-xs">
+		<div class="buttons buttons-right">
+			<button type="button" class="collection button button-clear button-primary has-inner-focus button-sm margin-right-none" data-bi-name="collection" data-list-item-title="Work with the Django admin site" data-list-item-url=" " data-list-type="collection">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-circle-addition"></span>
+				</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+			<div id="learn.django.views-templates" class="box margin-none margin-bottom-sm-tablet padding-none is-shadowless-mobile border-top position-relative" data-bi-name="module">
+	<div class="padding-sm padding-bottom-none-tablet">
+		<div data-progress-uid="learn.django.views-templates" class="xp-tag is-hidden position-absolute top-0 margin-top-lg-tablet margin-top-xs right-0 margin-right-lg-tablet margin-right-sm">
+			<div class="xp-tag-hexagon">
+				<span class="xp-tag-icon is-shown-complete docon docon-check"></span>
+				<span aria-hidden="true" class="xp-tag-xp"></span>
+			</div>
+		</div>
+		<div class="columns has-large-gaps margin-none">
+
+			<div class="image is-96x96 is-hidden-mobile">
+				<a aria-hidden="true" tabindex="-1" href="../../modules/django-views-templates/" class="display-block" data-linktype="relative-path">
+					<img role="presentation" src="/en-us/training/achievements/django-views-templates.svg" alt="" data-linktype="absolute-path">
+				</a>
+			</div>
+
+			<div class="column is-auto padding-none padding-top-sm padding-sm-tablet">
+				<div class="columns has-large-gaps is-mobile margin-none padding-bottom-xs">
+					<div class="column is-narrow is-hidden-tablet padding-top-none padding-left-none">
+						<div class="image is-max-48x48">
+							<img role="presentation" src="/en-us/training/achievements/django-views-templates.svg" alt="" data-linktype="absolute-path">
+						</div>
+					</div>
+					<div class="column is-auto padding-none">
+						<a href="../../modules/django-views-templates/" class="display-block text-decoration-none font-weight-semibold font-size-h6 margin-none has-content-margin-right-xxl-tablet" data-linktype="relative-path">
+							Create views and templates in Django
+						</a>
+						<ul class="metadata page-metadata">
+							<li class="module-time-remaining"></li>
+							<li class="module-type"></li>
+							<li class="module-units-remaining"></li>
+						</ul>
+						<div class="page-rating">
+						</div>
+					</div>
+				</div>
+				<div class="is-hidden-portrait padding-inline-sm padding-inline-none-tablet">
+					<div class="font-size-md module-summary"><p>As with every web framework, Django has a templating engine for creating dynamic HTML. The information that the user wants to access is created by this engine and presented through views. We'll explore how the engine works and the process of creating views in Django.</p>
+</div>
+					<div data-bi-name="units">
+						<button class="button button-clear text-decoration-none button-sm unit-expander" data-bi-name="expander" aria-expanded="true" aria-controls="aria-learn.django.views-templates" aria-label="">
+							<span class="module-overview font-weight-semibold font-size-sm"></span>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-chevron-down-light expanded-indicator"></span>
+							</span>
+						</button>
+						<div id="aria-learn.django.views-templates" class="module-units">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="border-top padding-xxs padding-right-xs">
+		<div class="buttons buttons-right">
+			<button type="button" class="collection button button-clear button-primary has-inner-focus button-sm margin-right-none" data-bi-name="collection" data-list-item-title="Create views and templates in Django" data-list-item-url=" " data-list-type="collection">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-circle-addition"></span>
+				</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+			<div id="learn.django.generic-views" class="box margin-none margin-bottom-sm-tablet padding-none is-shadowless-mobile border-top position-relative" data-bi-name="module">
+	<div class="padding-sm padding-bottom-none-tablet">
+		<div data-progress-uid="learn.django.generic-views" class="xp-tag is-hidden position-absolute top-0 margin-top-lg-tablet margin-top-xs right-0 margin-right-lg-tablet margin-right-sm">
+			<div class="xp-tag-hexagon">
+				<span class="xp-tag-icon is-shown-complete docon docon-check"></span>
+				<span aria-hidden="true" class="xp-tag-xp"></span>
+			</div>
+		</div>
+		<div class="columns has-large-gaps margin-none">
+
+			<div class="image is-96x96 is-hidden-mobile">
+				<a aria-hidden="true" tabindex="-1" href="../../modules/django-generic-views/" class="display-block" data-linktype="relative-path">
+					<img role="presentation" src="/en-us/training/achievements/django-generic-views.svg" alt="" data-linktype="absolute-path">
+				</a>
+			</div>
+
+			<div class="column is-auto padding-none padding-top-sm padding-sm-tablet">
+				<div class="columns has-large-gaps is-mobile margin-none padding-bottom-xs">
+					<div class="column is-narrow is-hidden-tablet padding-top-none padding-left-none">
+						<div class="image is-max-48x48">
+							<img role="presentation" src="/en-us/training/achievements/django-generic-views.svg" alt="" data-linktype="absolute-path">
+						</div>
+					</div>
+					<div class="column is-auto padding-none">
+						<a href="../../modules/django-generic-views/" class="display-block text-decoration-none font-weight-semibold font-size-h6 margin-none has-content-margin-right-xxl-tablet" data-linktype="relative-path">
+							Use generic views in Django
+						</a>
+						<ul class="metadata page-metadata">
+							<li class="module-time-remaining"></li>
+							<li class="module-type"></li>
+							<li class="module-units-remaining"></li>
+						</ul>
+						<div class="page-rating">
+						</div>
+					</div>
+				</div>
+				<div class="is-hidden-portrait padding-inline-sm padding-inline-none-tablet">
+					<div class="font-size-md module-summary"><p>Because Django was designed for data-driven applications, it includes numerous built-in utilities to streamline the amount of code needed. One key area where Django makes a developer's life easier is by providing generic views, which are prebuilt with all the necessary code to perform core operations like displaying and editing data. We'll see how we can use generic views to greatly reduce the amount of code required.</p>
+</div>
+					<div data-bi-name="units">
+						<button class="button button-clear text-decoration-none button-sm unit-expander" data-bi-name="expander" aria-expanded="true" aria-controls="aria-learn.django.generic-views" aria-label="">
+							<span class="module-overview font-weight-semibold font-size-sm"></span>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-chevron-down-light expanded-indicator"></span>
+							</span>
+						</button>
+						<div id="aria-learn.django.generic-views" class="module-units">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="border-top padding-xxs padding-right-xs">
+		<div class="buttons buttons-right">
+			<button type="button" class="collection button button-clear button-primary has-inner-focus button-sm margin-right-none" data-bi-name="collection" data-list-item-title="Use generic views in Django" data-list-item-url=" " data-list-type="collection">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-circle-addition"></span>
+				</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+			<div id="learn.django.deployment" class="box margin-none margin-bottom-sm-tablet padding-none is-shadowless-mobile border-top position-relative" data-bi-name="module">
+	<div class="padding-sm padding-bottom-none-tablet">
+		<div data-progress-uid="learn.django.deployment" class="xp-tag is-hidden position-absolute top-0 margin-top-lg-tablet margin-top-xs right-0 margin-right-lg-tablet margin-right-sm">
+			<div class="xp-tag-hexagon">
+				<span class="xp-tag-icon is-shown-complete docon docon-check"></span>
+				<span aria-hidden="true" class="xp-tag-xp"></span>
+			</div>
+		</div>
+		<div class="columns has-large-gaps margin-none">
+
+			<div class="image is-96x96 is-hidden-mobile">
+				<a aria-hidden="true" tabindex="-1" href="../../modules/django-deployment/" class="display-block" data-linktype="relative-path">
+					<img role="presentation" src="/en-us/training/achievements/django-deployment.svg" alt="" data-linktype="absolute-path">
+				</a>
+			</div>
+
+			<div class="column is-auto padding-none padding-top-sm padding-sm-tablet">
+				<div class="columns has-large-gaps is-mobile margin-none padding-bottom-xs">
+					<div class="column is-narrow is-hidden-tablet padding-top-none padding-left-none">
+						<div class="image is-max-48x48">
+							<img role="presentation" src="/en-us/training/achievements/django-deployment.svg" alt="" data-linktype="absolute-path">
+						</div>
+					</div>
+					<div class="column is-auto padding-none">
+						<a href="../../modules/django-deployment/" class="display-block text-decoration-none font-weight-semibold font-size-h6 margin-none has-content-margin-right-xxl-tablet" data-linktype="relative-path">
+							Deploy a Django application to Azure by using PostgreSQL
+						</a>
+						<ul class="metadata page-metadata">
+							<li class="module-time-remaining"></li>
+							<li class="module-type"></li>
+							<li class="module-units-remaining"></li>
+						</ul>
+						<div class="page-rating">
+						</div>
+					</div>
+				</div>
+				<div class="is-hidden-portrait padding-inline-sm padding-inline-none-tablet">
+					<div class="font-size-md module-summary"><p>To make your application available to the world, you need to host it somewhere. Here you'll deploy your application to Azure and create a database for the data.</p>
+</div>
+					<div data-bi-name="units">
+						<button class="button button-clear text-decoration-none button-sm unit-expander" data-bi-name="expander" aria-expanded="true" aria-controls="aria-learn.django.deployment" aria-label="">
+							<span class="module-overview font-weight-semibold font-size-sm"></span>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-chevron-down-light expanded-indicator"></span>
+							</span>
+						</button>
+						<div id="aria-learn.django.deployment" class="module-units">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="border-top padding-xxs padding-right-xs">
+		<div class="buttons buttons-right">
+			<button type="button" class="collection button button-clear button-primary has-inner-focus button-sm margin-right-none" data-bi-name="collection" data-list-item-title="Deploy a Django application to Azure by using PostgreSQL" data-list-item-url=" " data-list-type="collection">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-circle-addition"></span>
+				</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+	</div>
+
+</div>
+</div><div id="assertive-live-region" role="alert" aria-live="assertive" class="visually-hidden" aria-relevant="additions" aria-atomic="true"></div>
+							<div id="polite-live-region" role="status" aria-live="polite" class="visually-hidden" aria-relevant="additions" aria-atomic="true"></div>
+							<!-- </content> -->
+
+						</main><!-- recommendations section --><!-- end recommendations section -->
+
+						<!-- feedback section --><!-- end feedback section -->
+
+						<!-- feedback report section --><!-- end feedback report section --><div class="border-top is-visible-interactive has-default-focus margin-top-sm  margin-top-none"><footer id="footer-interactive" data-bi-name="footer" class="footer-layout"><div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop"><a
+				data-mscc-ic="false"
+				class="locale-selector-link button button-sm button-clear flex-shrink-0"
+				href="#"
+				data-bi-name="select-locale">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-world"></span>
+					</span>
+					<span class="local-selector-link-text"></span></a><div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+<a
+	href="https://aka.ms/yourcaliforniaprivacychoices"
+	class="button button-sm button-clear flex-shrink-0"
+	data-mscc-ic="false"
+	data-bi-name="your-privacy-choices"
+>
+	<svg
+		role="img"
+		aria-label="California Consumer Privacy Act (CCPA) Opt-Out Icon"
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 30 14"
+		xml:space="preserve"
+		height="16"
+		width="43"
+		focusable="false"
+	>
+		<title>California Consumer Privacy Act (CCPA) Opt-Out Icon</title>
+		<path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
+		<path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
+		<path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"></path>
+		<path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"></path>
+	</svg>
+	<span>Your Privacy Choices</span>
+</a>
+
+		</div>
+		<div class="flex-shrink-0">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu-interactive" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Theme</span>
+		<span class="icon expanded-indicator" aria-hidden="true">
+			<span class="docon docon-chevron-down-light"></span>
+		</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu-interactive" role="menu">
+		<ul class="theme-selector padding-xxs" role="none">
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="light">
+					<span class="theme-light margin-right-xxs">
+						<span
+							class="theme-selector-icon border display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>Light</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="dark">
+					<span class="theme-dark margin-right-xxs">
+						<span
+							class="border theme-selector-icon display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>Dark</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast margin-right-xxs">
+						<span
+							class="border theme-selector-icon display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>High contrast</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>
+
+		</div>
+	</div>
+	<ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden></li><li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/previous-versions/" data-bi-name="archivelink">Previous Versions</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog" data-bi-name="bloglink">Blog</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/contribute/" data-bi-name="contributorGuide">Contribute</a></li><li><a class="external-link-indicator" data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy</a></li><li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li><li><a class="external-link-indicator" data-mscc-ic="false" href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/" data-bi-name="trademarks">Trademarks</a></li><li>&copy; Microsoft 2024</li>
+	</ul>
+</footer></div><div class="is-mobile is-fixed-bottom is-hidden-tablet">
+	<a id="start-unit-mobile" class="button button-block button-primary button-filled button-large is-radiusless margin-none" data-bi-name="start" data-test-id="start-unit-button">
+		<span>Start</span>
+		<span class="icon docon docon-chevron-right-light" aria-hidden="true"></span>
+	</a>
+</div></div></div>
+				<!--end of div.columns -->
+
+			</section>
+			<!--end of .primary-holder -->
+
+			<!-- interactive container -->
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+			<!-- end of interactive container -->
+		</div>
+
+	</div>
+	<!--end of .mainContainer -->
+
+	<section class="border-top has-default-focus is-hidden-interactive margin-top-sm  margin-top-none"><footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo"><div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop"><a
+				data-mscc-ic="false"
+				class="locale-selector-link button button-sm button-clear flex-shrink-0"
+				href="#"
+				data-bi-name="select-locale">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-world"></span>
+					</span>
+					<span class="local-selector-link-text"></span></a><div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+<a
+	href="https://aka.ms/yourcaliforniaprivacychoices"
+	class="button button-sm button-clear flex-shrink-0"
+	data-mscc-ic="false"
+	data-bi-name="your-privacy-choices"
+>
+	<svg
+		role="img"
+		aria-label="California Consumer Privacy Act (CCPA) Opt-Out Icon"
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 30 14"
+		xml:space="preserve"
+		height="16"
+		width="43"
+		focusable="false"
+	>
+		<title>California Consumer Privacy Act (CCPA) Opt-Out Icon</title>
+		<path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
+		<path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
+		<path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"></path>
+		<path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"></path>
+	</svg>
+	<span>Your Privacy Choices</span>
+</a>
+
+		</div>
+		<div class="flex-shrink-0">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Theme</span>
+		<span class="icon expanded-indicator" aria-hidden="true">
+			<span class="docon docon-chevron-down-light"></span>
+		</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu" role="menu">
+		<ul class="theme-selector padding-xxs" role="none">
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="light">
+					<span class="theme-light margin-right-xxs">
+						<span
+							class="theme-selector-icon border display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>Light</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="dark">
+					<span class="theme-dark margin-right-xxs">
+						<span
+							class="border theme-selector-icon display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>Dark</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast margin-right-xxs">
+						<span
+							class="border theme-selector-icon display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>High contrast</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>
+
+		</div>
+	</div>
+	<ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden></li><li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/previous-versions/" data-bi-name="archivelink">Previous Versions</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog" data-bi-name="bloglink">Blog</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/contribute/" data-bi-name="contributorGuide">Contribute</a></li><li><a class="external-link-indicator" data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy</a></li><li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li><li><a class="external-link-indicator" data-mscc-ic="false" href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/" data-bi-name="trademarks">Trademarks</a></li><li>&copy; Microsoft 2024</li>
+	</ul>
+</footer>
+
+	</section><div id="action-panel" role="region" aria-label="Action Panel" class="action-panel has-default-focus" tabindex="-1"></div>
+</body>
+</html>
