@@ -1,8 +1,20 @@
 commit--01---{
-    
-images folder already available in the beginners with all images
+            
+        images folder already available in the beginners with all images
 
-created index.html
+        created index.html
+                        ------------------------------------------ before starting traversy ------loruki website--
+
+
+        created style.css 
+            css---overflow: hidden ----remove white gap above navabar caused due to h1
+
+
+        create .flex class then create .navbar .flex class as per requirement to target flex for each section
+        .navbar .flex created above .flex class in utility section--- mb- because of more specificity value
+
+        .navbar .ul above .navbar .flex
+
 
 }
 
