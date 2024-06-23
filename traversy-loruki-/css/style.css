@@ -11,6 +11,12 @@
     --light-color: #f4f4f4;
     --success-color: #5cb85c;
     --error-color: #d9534f; */
+
+    /* added during cloud section --- css part */
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+
   }
   
 * {
@@ -179,6 +185,29 @@ img {
   font-size: 20px;
   font-weight: bold;
 }
+
+/* =================================================== */
+/* =====                CLI              ===== */
+
+/* Cli */
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid > *:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+/* =================================================== */
+/* =====                CLOUD              ===== */
+
+/* Cloud */
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
+}
+
 
 /* --------------------------------------------------- */
 /* -----                NAVBAR              ----- */

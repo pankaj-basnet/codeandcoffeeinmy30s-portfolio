@@ -68,6 +68,35 @@ commit---05---{
         -------------------------------------------- html and css for stats section ,utilities.css created " -m "..."
 }
 
+===============================================================================
+commit---06---{
+        html for cli
+        css for cli
+        html for cloud
+        css for cloud
+
+        /* Backgrounds & colored buttons */ ---  bg-primary, btn-dark used in cloud section html --
+        text sizes --- lead, lg used in cloud section html --
+
+        css for Backgrounds & coloured buttons --- below .btn css classes 
+        css custom properties --- colors --- added in root
+
+        text sizes --- lead, lg added in style.css ----- 
+
+        =================               extra-notes               =================
+        
+        /* Text colors */ --- .text-primary, text-secondary--- made at the end of inner pages creation during lecture.
+
+        .btn-primary a, .bg-secondary a, --anchor tag css classes --- added --- made at the end of inner pages creation during lecture.
+
+        /* Alert */ --- alert messages --- .alert {}  ,  .alert i {} css classes --- added --- made at the end of inner pages creation during lecture.
+
+
+        primary and secondary colours for website in :root {} of style.css
+
+
+}
+
 
 
 
