@@ -81,7 +81,7 @@ commit---06---{
         css for Backgrounds & coloured buttons --- below .btn css classes 
         css custom properties --- colors --- added in root
 
-        text sizes --- lead, lg added in style.css ----- 
+        
 
         =================               extra-notes               =================
         
@@ -94,10 +94,14 @@ commit---06---{
 
         primary and secondary colours for website in :root {} of style.css
 
+        ------------------------------------------- commit---06---html and css for cli ,html and css for cloud
 
 }
 
+commit---07---{
+        text sizes --- lead, lg added in style.css ----- 
 
+}
 
 
 
