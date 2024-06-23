@@ -48,4 +48,34 @@ commit---03---{
         traversy-loruki-\screenshots-\Screenshot (6079).png
 }
 
-...
+commit---04---{
+        -------------------------------------------- css for .btn class and .showcase skew line added
+
+}
+
+commit---05---{
+
+        html for stats section 
+
+        utilities.css created ---external stylesheet -- put above style.css ---style.css overrides utilities.css mb==
+
+        css for stats section 
+
+        text-center css --- below .btn class css ---  above .flex and .grid (((isn= instructor's preference to keep .flex and .grid class css at bottom)))
+
+        margin css and padding css --- at the end --- so many custom css rules -- like framework  
+
+        -------------------------------------------- html and css for stats section ,utilities.css created " -m "..."
+}
+
+
+
+
+
+
+
+
+===============================================================================
+commit---04---{
+
+}
