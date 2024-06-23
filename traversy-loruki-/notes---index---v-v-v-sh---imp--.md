@@ -42,4 +42,10 @@ commit---03---{
         card added --- between sections ---- many utility classes for css --- like a css framework
 
         .showcase-form css selectors--- codes added --- 
+
+        "-------------------------------------------- c-03 --- added until showcase form --- html and css " 
+
+        traversy-loruki-\screenshots-\Screenshot (6079).png
 }
+
+...
